@@ -81,7 +81,7 @@ async function searchWeather() {
 
     try {
         
-        let cityName = cityInputBox.value;
+        let cityName = cityInputBox.value.trim();
     
         if(! cityName) return;
 
